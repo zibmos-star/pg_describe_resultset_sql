@@ -11,7 +11,7 @@ This is a drop-in SQL-only companion to the C extension:
 
 ## Why a separate repository?
 
-The C extension must be compiled for every PostgreSQL major version. This PL/pgSQL version works on any modern PostgreSQL (tested on 18.x) with zero build steps — just run one SQL file. Useful for:
+The C extension must be compiled for every PostgreSQL major version. This PL/pgSQL version works on any modern PostgreSQL (tested on 14, 15, 16, 17 and 18) with zero build steps — just run one SQL file. Useful for:
 
 - managed databases where you cannot install shared libraries;
 - sandboxes, CI pipelines, temporary environments;
